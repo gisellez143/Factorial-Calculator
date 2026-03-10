@@ -7,11 +7,12 @@ Instructor: Holtslander
 
 def factorial():
     # Write your code here
-    n=input()
+    print("Enter a non negative whole number\n")
+    n2=input()
     p=1
-    for i in range(n2, 0, -1)
+    for i in range(n2, 0, -1):
         p=p*i
-        
+        print()
 
 # You should not need to change any code below this point
 def main():
