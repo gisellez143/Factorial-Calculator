@@ -8,11 +8,17 @@ Instructor: Holtslander
 def factorial():
     # Write your code here
     print("Enter a non negative whole number\n")
-    n2=input()
-    p=1
-    for i in range(n2, 0, -1):
-        p=p*i
-        print()
+    num = int(input)
+    factorial = 1
+    s = ""
+    for i in range(num, 0, -1):
+        factorial = factorial * s = s + str(i)
+    if i != 1:
+        s=s + "*"
+        
+        print(num)
+        print(str(num) + "!=" + s)
+        print("Factorial =", factorial)
 
 # You should not need to change any code below this point
 def main():
